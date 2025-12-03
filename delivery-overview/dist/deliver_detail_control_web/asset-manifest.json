@@ -1,0 +1,42 @@
+{
+  "resourceId": "deliver_detail_control_web",
+  "files": {
+    "deliver_detail_control_web.js": "auto/index.js",
+    "deliver_detail_control_web.css": "auto/deliver_detail_control_web.a2c58508.css",
+    "stats.json": "auto/stats.json",
+    "index.html": "auto/index.html"
+  },
+  "entrypoints": {
+    "deliver_detail_control_web": [
+      "index.js",
+      "deliver_detail_control_web.a2c58508.css"
+    ]
+  },
+  "fileStats": [
+    {
+      "id": 731,
+      "initial": true,
+      "entry": true,
+      "parents": [],
+      "children": [],
+      "files": [
+        {
+          "path": "index.js",
+          "size": 1749667,
+          "type": "javascript",
+          "isPreload": true
+        },
+        {
+          "path": "deliver_detail_control_web.a2c58508.css",
+          "size": 902623,
+          "type": "css",
+          "isPreload": true
+        }
+      ]
+    }
+  ],
+  "sortedFiles": [
+    "index.js",
+    "deliver_detail_control_web.a2c58508.css"
+  ]
+}

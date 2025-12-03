@@ -1,0 +1,12 @@
+{
+  "siteDomain": "https://project.feishu.cn",
+  "pluginId": "",
+  "apiHostPrefix":"http://localhost:8081/proxy",
+  "pluginSecret": "",
+  "resources": [
+    {
+      "id": "deliver_detail_control_web",
+      "entry": "./src/features/control/index.tsx"
+    }
+  ]
+}

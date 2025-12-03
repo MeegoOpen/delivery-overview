@@ -1,0 +1,6 @@
+# 服务配置示例
+port: "8081"
+proxy_target: "https://project.feishu.cn"
+feishu_api_host: "https://project.feishu.cn"
+feishu_plugin_id: ""
+feishu_plugin_secret: ""

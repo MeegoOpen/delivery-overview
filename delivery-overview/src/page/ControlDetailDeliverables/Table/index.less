@@ -1,0 +1,174 @@
+.table-container {
+  border: 1px solid var(--semi-color-border);
+  border-radius: var(--semi-border-radius-medium);
+}
+.semi-row.row-task {
+  border-top: 1px solid var(--semi-color-border);
+  border-bottom: none;
+  font-size: 14px;
+  min-height: 36px;
+  box-sizing: border-box;
+  &.row-th {
+    color: var(--semi-color-text-2);
+  }
+  // min-height: 32px;
+  &:last-child {
+    border-bottom: none;
+  }
+  &:first-child {
+    border-top: none;
+    height: 32px;
+  }
+  display: flex;
+  align-items: stretch;
+  .semi-col.col-task {
+    // padding: 5px;
+    // margin-bottom: -2px;
+    // padding-left: 8px;
+    // border-right: 1px solid var(--semi-color-border);
+    display: flex;
+    align-items: center;
+    &:first-child {
+      padding-left: 12px;
+    }
+    &:nth-child(3) {
+      padding: 6px 0 6px 12px;
+    }
+    //   border-bottom: 1px solid var(--semi-color-border);
+    .col-task-border {
+      border-right: none;
+    }
+    .col-icon {
+      margin-right: 5px;
+      font-size: 15px;
+      color: var(--semi-color-text-2);
+    }
+    .semi-tag-content {
+      color: var(--semi-color-text-0);
+    }
+    .pd-l10 {
+      padding-left: 10px;
+    }
+    .row-task-branch {
+      display: flex;
+      align-items: stretch;
+      .meego-col {
+        line-height: 37px;
+        padding-right: 5px;
+      }
+    }
+    // &:first-child {
+    //   padding-left: 6px !important;
+    //   // border-left: 1px solid var(--semi-color-border);
+    // }
+    &:last-child {
+      border-right: none;
+    }
+    .semi-form-field {
+      padding-top: 0;
+      padding-bottom: 0;
+      width: 100%;
+    }
+    .col-detail {
+      background: var(--semi-color-fill-0);
+      border-radius: var(--semi-border-radius-small);
+      width: calc(100% - 24px);
+      //height: calc(100% - 16px);
+      display: flex;
+      align-items: center;
+      //padding: 6px 12px;
+      padding: 2px 12px;
+      height: calc(100% - 8px);
+      .select-tag {
+        .semi-tag.semi-tag-square {
+          border-radius: var(--semi-border-radius-extra-small);
+        }
+      }
+    }
+    .col-instance, .col-detail {
+      .semi-tag-small {
+        height: 24px;
+        font-size: 14px;
+      }
+      .semi-tag-group-max.semi-tag-group-small {
+        height: 24px;
+      }
+      .semi-tag-grey-light {
+        padding: 2px 0px;
+        .semi-tag-content {
+          color: var(--semi-color-text-2);
+        }
+      }
+    }
+    .semi-upload-file-card-preview {
+      height: 24px;
+      width: 24px;
+    }
+    .semi-upload-file-list-main {
+      .semi-icon {
+        margin-top: 6px;
+      }
+    }
+    .semi-upload-file-list-title-clear {
+      display: none;
+    }
+    // outline: 1px solid var(--semi-color-primary-light-active);
+    // 多选select人员
+    .user-select-div {
+      .semi-select-open {
+        // position: absolute;
+        // height: 80px;
+        // z-index: 2;
+        &.semi-select-multiple.semi-select-filterable
+          .semi-select-content-wrapper {
+          height: auto;
+        }
+      }
+    }
+  }
+  .avatar-user-select {
+    border-radius: var(--semi-border-radius-full);
+    border: 1px solid var(--semi-color-border);
+    background-color: var(--semi-color-bg-4);
+    cursor: pointer;
+    align-items: center;
+    // height: 24px;
+    padding: 2px 6px 2px 2px;
+    display: flex;
+  }
+  .avatar-card {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    .avatar-card-img {
+      margin-right: 4px;
+      border-radius: var(--semi-border-radius-circle);
+      width: 20px;
+      height: 20px;
+      white-space: nowrap;
+      text-align: center;
+      vertical-align: middle;
+      justify-content: center;
+      align-items: center;
+      display: inline-flex;
+      position: relative;
+      overflow: hidden;
+      image {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+    }
+    .avatar-card-name {
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      flex: 1;
+      font-size: 14px;
+      display: block;
+      overflow: hidden;
+    }
+  }
+}
