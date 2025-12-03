@@ -63,6 +63,8 @@
   - 路径：``/open_api/${project_key}/work_item/${work_item_type_key}/${work_item_id}/wbs_view``
   - Query：`need_union_deliverable=true`
   - 返回：`res.data`（页面服务已展开返回）
+- 需要获取的api权限信息
+<img width="2702" height="512" alt="image" src="https://github.com/user-attachments/assets/3520d091-2532-4bb7-8add-b346ad180a75" />
 
 ## 常见问题
 - 路径未替换：确认是否使用了反引号 `` `...${var}...` `` 而非引号 `"...${var}..."`
